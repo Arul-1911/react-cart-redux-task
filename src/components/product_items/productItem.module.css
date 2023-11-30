@@ -1,0 +1,34 @@
+/* productItem.module.css */
+.productItem {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .productItem img {
+    width: 100%;
+    height: 270px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .productInfo {
+    padding: 10px;
+  }
+  
+  .name {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: green;
+  }
+  
