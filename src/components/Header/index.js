@@ -13,7 +13,7 @@ export default function Header() {
         <div className={styles.header}>
             <Container>
                 <div className={styles.navbar}>
-                    <Link to="/"><h1>NHN</h1></Link>
+                    <Link to="/"><h2>Home</h2></Link>
                     <Link to="/cart" className={styles.cartIcon}>
                         <FaCartArrowDown />
                        <span>{list.length}</span>

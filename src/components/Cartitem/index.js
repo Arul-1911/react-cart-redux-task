@@ -50,7 +50,7 @@ useEffect(() => {
           <p style={{marginLeft:10}}>{data.name}</p>
         </div>
       </td>
-      <td className={styles.price}>{data.price}</td>
+      <td className={styles.price}>${data.price}</td>
       <td>
         <div className="d-flex align-items-center justify-content-center">
           <button className={styles.changeBtn} onClick={handleDecrease}>-</button>

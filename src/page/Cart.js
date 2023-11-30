@@ -18,7 +18,7 @@ export default function Cart() {
                                 <th>Action</th>
                             </tr>
                         </thead>
-                        <tbody style={{verticalAlign: 'top', horizontalAlign:"left"}}>
+                        <tbody style={{verticalAlign: 'top'}}>
                             {
                                 cart?.list.map(item => {
                                     return (
@@ -31,12 +31,12 @@ export default function Cart() {
                             }
                             <tr style={{fontSize: 20, textAlign: 'right'}}>
                                 <td colSpan={3}>Total:</td>
-                                <td colSpan={1}>{cart?.total}$</td>
+                                <td colSpan={1}>${cart?.total}</td>
                                 <td></td>
                             </tr>
                         </tbody>
                     </Table>
-                ) : <h1>Empty</h1>}
+                ) : <h1>Your Cart is Empty</h1>}
             </Row>
         </Container>
     )
